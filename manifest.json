@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+   
+    "name": "Maloprodajne cene BTM i MobyArena",
+    "version": "0.1.0",
+    "description": "Uvecanje VP cene za PDV i marzu kao i marza za MA",
+   
+    "content_scripts": [{
+      "js": ["content.js"],
+      "matches": ["https://btm.rs/*", "http://mobyarena.com/*"]
+    }]
+   
+  }
